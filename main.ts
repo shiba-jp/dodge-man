@@ -36,6 +36,9 @@ let currentTime = 0
 let startTime = 0
 let Player: game.LedSprite = null
 let Enemy: game.LedSprite = null
+basic.showString("DodgeMan")
+basic.showIcon(IconNames.Happy)
+basic.pause(500)
 initialize()
 basic.forever(function () {
     while (game.isRunning()) {
